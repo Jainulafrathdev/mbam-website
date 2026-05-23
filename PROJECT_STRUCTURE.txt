@@ -1,0 +1,13 @@
+./App.css
+./App.jsx
+./PROJECT_STRUCTURE.txt
+./QUICKSTART.md
+./README.md
+./SETUP_GUIDE.md
+./package.json
+./public/index.html
+./public/manifest.json
+./src/App.css
+./src/App.jsx
+./src/index.css
+./src/index.js
