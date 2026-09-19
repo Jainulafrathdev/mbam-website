@@ -262,7 +262,7 @@ const QuranSection = () => {
             )}
           </button>
           <audio ref={audioRef} preload="metadata">
-            <source src="\assets\Quran-261.mp3" type="audio/mpeg" />
+            <source src="/assets/Quran-261.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
         </div>
@@ -404,7 +404,6 @@ const DonateSection = () => {
       </div>
     </section>
   );
-  
 };
 
 // Get Involved Component
@@ -494,9 +493,9 @@ const Footer = () => {
           </div>
           <div className="footer-column">
             <h4>Get Involved</h4>
-            <a href="#volunteer">Volunteer</a>
-            <a href="#partner">Partner With Us</a>
-            <a href="">Contact</a>
+            <a href="#involved">Volunteer</a>
+            <a href="#involved">Partner With Us</a>
+            <a href="#contact">Contact</a>
           </div>
           <div className="footer-column">
             <h4>Connect</h4>
@@ -533,6 +532,7 @@ function App() {
       <QuranSection />
       <Mission />
       <Projects />
+      <GetInvolved />
       <Stats />
       <DonateSection />
       <Footer />
