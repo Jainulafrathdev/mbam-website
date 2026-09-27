@@ -71,8 +71,8 @@ const Carousel = () => {
   
   const images = [
     '/assets/IMG_2944.jpeg',
+    '/assets/slide1.jpg',
     '/assets/slide2.jpg',
-    '/assets/slide3.jpg',
   ];
 
   useEffect(() => {
