@@ -156,7 +156,7 @@ const Header = ({ darkMode, setDarkMode }) => {
   return (
     <header className={`site-header ${scrolled ? 'scrolled' : ''}`}>
       <div className="brand">
-        <img src="public\assets\IMG_2944.jpeg" alt="MBAM logo" className="MBAM-logo" />
+        <img src="assets/IMG_2944.jpeg" alt="MBAM logo" className="MBAM-logo" />
         <div className="brand-text">
           <span className="eyebrow">Muthupet Bayt Ul Mal Al Muslimin</span>
           <h1>MBAM</h1>
